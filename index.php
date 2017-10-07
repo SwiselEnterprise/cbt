@@ -76,11 +76,11 @@ label {
                                                         <!--HOME PAGE-->
         <header id="head" style="width:100%; height:550px; background:url('p.jpg');">
             <h1 style="font-family:Trebuchet MS; color:#fff; font-size:60px;
-                       text-align:center; position:relative; top:30%">THE CBT MAIDEN PROJECT</h1>
+                       text-align:center; position:relative; top:10%">THE CBT MAIDEN PROJECT</h1>
            
-            <p style="position:relative; top:25%; text-align:center;
+            <p style="position:relative; top:5%; text-align:center;
                       font-family:arial; color:#fff; font-size: 20px;">&curren; A NIFFTY WAY TO TAKE EXAMS &curren;</p>
-
+            
             <a id="reg" href="#signUp" style="text-decoration:none;"><p style="position:relative; top:30%; left:40%; text-align:center; font-family:Trebuchet MS; width:300px;
                                font-size:20px; color:#fff; background:seagreen; padding:10px 10px;">REGISTER</p></a> 
             
@@ -122,9 +122,7 @@ label {
                     </form>
                  
              </section>  
-
-           
-           
+          
         </main>
 
         <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
@@ -134,7 +132,7 @@ label {
                 $(document).ready(function(){
                     $('#signUp').hide();
                     $('#signIn').hide();
-                });
+                    });
         </script>
                                                                 <!--THIS SCRIPT BELOW TRIGGERS THE REGISTRATION PAGE AND LOGIN PAGE-->
         <script type="text/javascript">
@@ -147,6 +145,8 @@ label {
                     });
                 });
         </script>
+
+        
 
         <?php include('footer.php'); ?>
     </body>
