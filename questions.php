@@ -25,7 +25,7 @@
 
     </style>
 </head>
-<body>
+<body onload = "hide()">
     <header>
         <?php include('header.php') ?>
     </header>
@@ -89,9 +89,9 @@
         <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
 
         <script type="text/javascript">
-            $(document).ready(function(){
-                $("#question").hide();
-            });
+                function hide(){
+                    $("#question").hide();
+                }
         </script> 
 
         <script type="text/javascript">
