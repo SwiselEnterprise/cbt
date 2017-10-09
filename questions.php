@@ -25,7 +25,7 @@
 
     </style>
 </head>
-<body onload = "hide()">
+<body>
     <header>
         <?php include('header.php') ?>
     </header>
@@ -52,34 +52,34 @@
 
                 <div class = "question" id ="2">
                     <p>2. What is your favorite food?</p>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam
+                    <input type="radio" name="option2" id="">Yam <br>
+                    <input type="radio" name="option2" id="">Yam <br>
+                    <input type="radio" name="option2" id="">Yam <br>
+                    <input type="radio" name="option2" id="">Yam
                 </div>
 
                 <div class = "question" id ="3">
                     <p>3. What is your favorite food?</p>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam
+                    <input type="radio" name="option3" id="">Yam <br>
+                    <input type="radio" name="option3" id="">Yam <br>
+                    <input type="radio" name="option3" id="">Yam <br>
+                    <input type="radio" name="option3" id="">Yam
                 </div>
 
                 <div class = "question" id ="4">
                     <p>4. What is your favorite food?</p>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam
+                    <input type="radio" name="option4" id="">Yam <br>
+                    <input type="radio" name="option4" id="">Yam <br>
+                    <input type="radio" name="option4" id="">Yam <br>
+                    <input type="radio" name="option4" id="">Yam
                 </div>
 
                 <div class = "question" id ="5">
                     <p>5. What is your favorite food?</p>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam <br>
-                    <input type="radio" name="option1" id="">Yam
+                    <input type="radio" name="option5" id="">Yam <br>
+                    <input type="radio" name="option5" id="">Yam <br>
+                    <input type="radio" name="option5" id="">Yam <br>
+                    <input type="radio" name="option5" id="">Yam
                 </div>
             
             </div>
@@ -89,16 +89,21 @@
         <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
 
         <script type="text/javascript">
-                function hide(){
-                    $("#question").hide();
-                }
+
+        $(document).ready(function(){
+            $("#question").hide();
+        });
         </script> 
 
         <script type="text/javascript">
-            $('#start').click(function(){
-                $('#question').show();
-                $('#signIn').hide();
-            });
+
+            $(document).ready(function(){
+                $('#start').click(function(){
+                 $('#question').show(); 
+                 $('#signIn').hide();
+                     
+                 });
+            });  
 
         </script>
             
