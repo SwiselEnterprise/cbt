@@ -1,0 +1,34 @@
+/* 
+   s/n. Authors/Author-id
+    1.  Maduabuchi Chinaechetam/LordCheta
+    2.  Umeh MaryBlessing/maryb
+    3.  Ekwuno Obinna/obinna
+    4.  Olibie Jennifer/jeni
+
+    NB: All Authors should implement their styles only in the section bearing their autho-id.
+*/
+
+/* 1. LordCheta 
+------------------------------------------------------------------------------------------------------------
+*/
+#regLeftSection{
+    height: 600px;
+    background: url('/cbt/images/p.jpg');
+    background-color: rgba(63, 104, 104, 0.979);
+}
+
+input{
+    border-left: 4px solid blue;
+}
+
+/* 2. maryb 
+------------------------------------------------------------------------------------------------------------
+*/
+
+/* 3. obinna 
+------------------------------------------------------------------------------------------------------------
+*/
+
+/* 4. jeni 
+------------------------------------------------------------------------------------------------------------
+*/
