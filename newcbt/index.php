@@ -1,6 +1,12 @@
 <?php include ('includes/head.php'); ?>
 
-<?php include ('includes/regpage.php'); ?>
+<?php include ('landingpage.php'); ?>
+
+<?php include ('regpage.php'); ?>
+
+<script src="/newcbt/js/custom.js"></script>
+
+<script src="/newcbt/js/validate.js"></script>
 
 <?php include ('includes/footer.php'); ?>
 
