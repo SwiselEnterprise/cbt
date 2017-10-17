@@ -39,7 +39,7 @@
 </head>
 <body onload = "hide()">
     <header class="">
-        <?php include('header.php') ?>
+        <?php include('includes/header.php') ?>
     </header>
     <main class= "container">
         <section id="signIn" class="row">
@@ -150,7 +150,7 @@
     </main>
 
     <footer>
-        <?php include("footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
     </footer>
     
 </body>
