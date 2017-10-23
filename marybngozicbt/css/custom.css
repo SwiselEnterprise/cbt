@@ -1,0 +1,139 @@
+/* 
+   s/n. Authors/Author-id
+    1.  Maduabuchi Chinaechetam/LordCheta
+    2.  Umeh MaryBlessing/marybngozi
+    3.  Ekwuno Obinna/obinna
+    4.  Olibie Jennifer/jeni
+
+    NB: All Authors should implement their styles only in the section bearing their autho-id.
+*/
+
+/* 1. LordCheta 
+   a. style for the registration page
+------------------------------------------------------------------------------------------------------------
+*/
+#regLeftSection{
+    height: 600px;
+    background: url('/newcbt/images/p.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#formDiv{
+    margin-left: 15%;
+}
+.input{
+    border-left: 0px solid transparent; border-right: 0px solid transparent; border-top: 0px solid transparent;
+    border-bottom: 1px solid #0f222f;
+    border-radius: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px rgb(255, 255, 255);
+}
+.input:focus{
+    border-left: 0px solid transparent; border-right: 0px solid transparent; border-top: 0px solid transparent;
+    border-bottom: 4px solid #0f222f;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0) inset, 0px 0px 0px rgb(255, 255, 255);
+}
+.icon{
+    color:#0f222f;
+}
+#formtext-a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0f222f;
+    margin-top: 10%;
+    font-size:16px;
+    font-weight: bold;
+}
+#formtext-b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0f222f;
+    margin-top: 15%;
+    font-size:16px;
+    font-weight: bold;
+}
+#sub{
+    margin-top: 10%;
+    margin-left: 50px;
+    width: 200px;
+    color: #0f222f;
+    border: 1px solid #0f222f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+#sub:hover{
+    color: #fff;
+    background: #0f222f;
+}
+#Regdetails p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0f222f;
+    margin-top: 20%;
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+/* 2. marybngozi 
+------------------------------------------------------------------------------------------------------------
+*/
+
+/* 3. obinna 
+------------------------------------------------------------------------------------------------------------
+*/
+#landing-page{
+    background-image: url("/newcbt/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: initial;
+}
+
+.header{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #fff;
+        font-weight: bold;
+}
+/* landing page Top nav style */
+.navbar{
+    padding: 20px 20px;
+    background: transparent;
+    border: 0px solid transparent;
+}
+.navbar-toggle{
+    background: #0f222f;
+}
+.navbar-default .navbar-toggle:hover{
+    background: #0f222f;
+}
+
+.icon-bar {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+#opaque{
+    background-color: rgba(21, 22, 46, 0.568);
+    height:600px;
+}
+#landingP{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+#landing-label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.landing-btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 300px;
+}
+/* 4. jeni 
+------------------------------------------------------------------------------------------------------------
+*/
