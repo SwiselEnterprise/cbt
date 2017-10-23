@@ -187,23 +187,21 @@
  
         //for the timer
         let secs = 0;
-        let mins = 2;
-        let hr = 1;
-        let total = (secs+(mins*60)+(hr*3600))*1000;
-
-        function time(){    
-        
-            setInterval(function(){
-
-                if (secs.toString().length == 1){
+        let mins = 0;
+        let hr = 0;
+        let total = ((secs+(mins*60)+(hr*3600))*1000)+1;
+        if (secs.toString().length == 1){
                         secs = '0' + secs;
                     }
                 if (mins.toString().length == 1 ){
                         mins = '0' + mins;
                 }
                 if (hr.toString().length == 1 ){
-                    hr = '0' + hr;
-                }
+                    hr = '0' + hr;}
+
+        function time(){    
+        
+            setInterval(function(){
                 $('#secs').text(secs);
                 $('#mins').text(mins);
                 $('#hours').text(hr);                
@@ -217,6 +215,19 @@
                         hr--;
                     }       
                 }
+                if (secs.toString().length == 1){
+                        secs = '0' + secs;
+                    }
+                if (mins.toString().length == 1 ){
+                        mins = '0' + mins;
+                }
+                if (hr.toString().length == 1 ){
+                    hr = '0' + hr;
+                }
+                $('#secs').text(secs);
+                $('#mins').text(mins);
+                $('#hours').text(hr);
+                
                                                        
                 }, 1000)                
         };
@@ -228,7 +239,10 @@
                });
                     
         //shows question when proceed is clicked
-            $('#start').click(function(){                
+            $('#start').click(function(){
+                $('#secs').text(secs);
+                $('#mins').text(mins);
+                $('#hours').text(hr);               
                 time(); //starts timer on proceed click                
                 $('#question').show();
                 $('#signIn').hide();
