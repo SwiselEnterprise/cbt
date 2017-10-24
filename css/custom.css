@@ -137,3 +137,68 @@
 /* 4. jeni 
 ------------------------------------------------------------------------------------------------------------
 */
+#start{
+    width:127px;
+    height:38px;
+    background-color: #0f222f;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: #0f222f;
+    margin-top: 35px;
+    margin: 35px auto;
+    cursor:pointer;
+    }
+#calc{
+    width:127px;
+    height:35px;
+    background-color: #0f222f;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: #0f222f;
+    margin: 0px auto;
+    border-radius: 3px;
+    cursor:pointer;
+    }
+footer {
+        position: relative;
+        bottom: 2px;
+        top: 95%;
+    }
+    
+#timer{
+    position: -webkit-sticky; /*safari*/
+    position: sticky;
+    top:0;
+    width:127px;
+    height:38px;
+    background-color: #0f222f;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: #0f222f;
+    margin-top: 35px;
+    margin: 35px auto;
+    text-align: center;
+    font-size: 25px;
+    }
+.question{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 35px auto;
+    }
+.answerButton{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    height: 35px;
+        
+    }
+.btngrp{
+    margin: auto;
+    }
+.score{
+    margin: 7% auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0f222f;
+    }
